@@ -1,0 +1,19 @@
+name = "Mxma"
+uuid = "623401ee-a9cf-4373-8212-8a1a90edb837"
+authors = ["Jingyue Wang <wang.jingyue@qq.com> and contributors"]
+version = "0.1.0"
+
+[deps]
+DomTerm = "b574160c-bd97-4a9e-8740-6e0e9e33abbb"
+MathMLRepr = "42d37811-1353-41fc-905d-730061a3b7c3"
+REPL = "3fa0cd96-eef1-5676-8a61-b3b8758bbffb"
+ReplMaker = "b873ce64-0db9-51f5-a568-4457d8e49576"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
